@@ -1,0 +1,65 @@
+.first{
+    color:hotpink;
+     border:1px solid hotpink;
+      border-radius: 20px ;
+      padding-left: 30px;
+      padding-right: 30px;
+  
+}
+
+.font1{
+    font-size: 53px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 170px;
+}
+
+.font2{
+    width: 707px;
+    text-align: center;
+}
+
+.second{
+    color:white;
+     border:1px solid hotpink;
+      border-radius: 40px ;
+      padding-left: 30px;
+      padding-right: 30px;
+      background-color: hotpink;
+      height: 70px;
+      width: 300px;
+}
+
+.third{color:white;
+    border:1px solid hotpink;
+     border-radius: 5px ;
+     padding-left: 30px;
+     padding-right: 30px;
+     background-color: hotpink;
+
+}
+
+@media ( max-width:400px){
+    .img5{
+        width: 70%;
+    }
+
+    .first{
+        width: 84px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .font1{
+        font-size: 36px;
+    }
+
+    .second{
+        height: 40px;
+        width: 204px;
+    }
+
+    .font2{
+        width: auto;
+    }
+}
